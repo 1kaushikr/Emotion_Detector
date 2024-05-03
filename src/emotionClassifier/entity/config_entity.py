@@ -15,10 +15,11 @@ class PrepareBaseModelConfig:
     base_model_path: Path
     updated_base_model_path: Path
     params_image_size: list
-    params_learning_rate: float
     params_include_top: bool
     params_weights: str
-    params_classes: int
+    classes: int
+    freezetill: int
+    freeze_all: bool
 
 
 
